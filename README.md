@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
 
-> An iOS app that lists Crypto coins Exchanges and shows its details, with loading state and error handling.
+> An iOS app that calculates estimated cost of services for an event.
 
 ## User Story Description
 
@@ -25,17 +25,22 @@ https://swensonhe-dev-challenge.s3.us-west-2.amazonaws.com/categories/{categoryI
 - On the categories list, display a label to show the average cost of all added items. The average should be calculated using the summation of avgBudget for each item.
 - If the user has added any item, display a button to mark that item is added.
 
+## UI/UX Design Specifications
+
+[Figma Project](https://www.figma.com/file/Ws0nlWSc1wkJ8kjf2EkAq1/Challenge-UI?type=design&node-id=3-200&t=fGMAnSnj8rccgSCk-0)
+
 ## 📱 Screenshots
 
 <img width="200" src="https://github.com/marcos1262/event-building/blob/main/screenshot1.png">        <img width="200" src="https://github.com/marcos1262/event-building/blob/main/screenshot2.png">        <img width="200" src="https://github.com/marcos1262/event-building/blob/main/screenshot3.png">        <img width="200" src="https://github.com/marcos1262/event-building/blob/main/screenshot4.png">        <img width="200" src="https://github.com/marcos1262/event-building/blob/main/screenshot5.png">
 
 ## 👩🏾‍💻 Technologies
-- [x] SwiftUI supporting iOS 14
+- [x] SwiftUI targeting iOS 14
 - [x] MVVM Architecture
 - [x] Combine
 - [x] Unit test for ViewModel - Quick, Nimble
 - [x] UI Test - XCTest
 - [x] SPM - Swift Package Manager
 - [x] Converted third-party CleanNetwork Async-await to Combine
+- [x] Dependency Injection for network layer
 - [x] Loaded images - KingFisher
 - [x] Localized strings for en and pt-BR
