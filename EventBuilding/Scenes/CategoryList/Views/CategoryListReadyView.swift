@@ -41,6 +41,7 @@ struct CategoryListReadyView: View {
                     .background(Color.accent)
                     .clipShape(RoundedRectangle(cornerRadius: 5))
             }
+            .accessibilityIdentifier("SaveButton")
         }
         .padding(EdgeInsets(top: .huge, leading: .medium, bottom: .huge, trailing: .medium))
     }

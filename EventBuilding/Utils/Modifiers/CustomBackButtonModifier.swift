@@ -18,6 +18,7 @@ struct CustomBackButtonModifier: ViewModifier {
                                 .font(.headline.weight(.bold))
                         }
                     }
+                    .accessibilityIdentifier("BackButton")
                 }
             }
     }

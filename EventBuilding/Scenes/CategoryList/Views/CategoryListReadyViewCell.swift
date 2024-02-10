@@ -24,6 +24,7 @@ struct CategoryListReadyViewCell: View {
                     Text(stateModel.title)
                         .font(.small)
                         .foregroundColor(.text)
+                        .accessibilityIdentifier("CategoryTitle")
                     Spacer()
                     Image(systemName: "chevron.right")
                         .font(.headline.bold())

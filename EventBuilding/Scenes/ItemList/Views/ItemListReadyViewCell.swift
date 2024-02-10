@@ -48,6 +48,7 @@ struct ItemListReadyViewCell: View {
                     Image(systemName: "plus")
                         .foregroundColor(.white)
                         .font(.caption.weight(.black))
+                        .accessibilityIdentifier("ItemAddAction")
                 }
             }
             .padding(.xSmall)

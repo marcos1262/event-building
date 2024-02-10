@@ -16,6 +16,7 @@ struct CheckoutView: View {
             VStack(spacing: .medium) {
                 Text(LocalizedStrings.Checkout.title)
                     .font(.largeBlack)
+                    .accessibilityIdentifier("CheckoutTitle")
                 Text(total)
                     .font(.hugeBlack)
                 Image(systemName: "star.fill")
