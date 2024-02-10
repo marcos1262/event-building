@@ -1,17 +1,14 @@
-//
-//  EventBuildingApp.swift
-//  EventBuilding
-//
-//  Created by Marcos Santos on 07/02/24.
-//
-
 import SwiftUI
 
 @main
 struct EventBuildingApp: App {
+
+    private let network: NetworkProviderProtocol = NetworkProvider()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationHost(network: network)
+                .background(Color.backgroundPrimary)
         }
     }
 }

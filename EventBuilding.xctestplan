@@ -1,0 +1,48 @@
+{
+  "configurations" : [
+    {
+      "id" : "256AA055-0E64-4E3C-A153-10D485B25A73",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:EventBuilding.xcodeproj",
+          "identifier" : "8DA54DA92B73F627003CB245",
+          "name" : "EventBuilding"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EventBuilding.xcodeproj",
+      "identifier" : "8DA54DA92B73F627003CB245",
+      "name" : "EventBuilding"
+    },
+    "testExecutionOrdering" : "random"
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EventBuilding.xcodeproj",
+        "identifier" : "8DA54DB92B73F62B003CB245",
+        "name" : "EventBuildingTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EventBuilding.xcodeproj",
+        "identifier" : "8DA54DC32B73F62B003CB245",
+        "name" : "EventBuildingUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
